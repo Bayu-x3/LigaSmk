@@ -1,0 +1,304 @@
+ body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+ }
+
+ .custom-navbar {
+  background-color: #FFFFFF;
+ }
+
+ /* Custom CSS to set font to Inter ExtraBold, size to 30, and color to 4D4D4D for "SuitJobs" */
+ .navbar-brand {
+  font-weight: 800;
+  font-size: 30px;
+  color: black;
+ }
+
+ /* Custom CSS to set font to Inter, size to 12px for menu items Home, Perusahaan, Lowongan, and Contact */
+ .navbar-nav .nav-link {
+ justify-content: flex-end;
+ align-items: center;
+  font-size: 12px;
+  margin-right: 9px;
+  color: black; /* Menambahkan warna hitam pada menu items */
+  margin-bottom: 0;
+ }
+
+ .container {
+  display: flex;
+  min-width: 100%;
+  height: 430px;
+  padding: 66.823px 100.234px;
+  align-items: center;
+  gap: 100%;
+  background: var(--neutral-silver, #f0f3ff); 
+ }
+
+ .layout .brand {
+  color: #161819;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+ }
+
+ .imageHero {
+  position: absolute;
+  /* Atur ukuran gambar sesuai kebutuhan */
+  width: 10px; /* Sesuaikan ukuran yang diinginkan */
+  height: auto; /* Sesuaikan ukuran yang diinginkan */
+}
+
+
+ .layout .description {
+   color: #2194F3;
+   /* Warna untuk "Platform Pencari Kerja yang Efektif dan Informatif" */
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 1000;
+   line-height: 57px;
+   /* 118.75% */
+ }
+
+ .layout .content {
+   align-self: stretch;
+   color: var(--neutral-grey, #818080);
+   font-size: 11.137px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 5px; 
+ }
+
+ .buttonMulaiBelajar {
+  background-color: #3700ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+ }
+
+ .container2 {
+  display: flex;
+  min-width: 100%;
+  height: 100px;
+  padding: 66.823px 100.234px;
+  align-items: center;
+  gap: 180px;
+  background: var(--neutral-silver, #ecb511); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+ }
+
+ .container2 img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.text h3.brand {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.text p {
+  margin-top: 0;
+  font-size: 5px;
+}
+
+.positionImg {
+ position: relative;
+}
+
+ .left .brand {
+   color: #161819;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 20px;
+   width: 100%;
+   text-align: center;
+  }
+
+ .center .brand {
+   color: #161819;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 20px;
+   width: 100%;
+   text-align: center;
+  }
+
+ .right .brand {
+   color: #161819;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 20px;
+   width: 100%;
+   text-align: center;
+  }
+
+  .container3 {
+   padding: 66.823px 100.234px;
+   background: var(--neutral-silver, #FFFFFF); 
+ }
+ 
+ .layout .title {
+   color: #161819;
+   font-size: 25px;
+   font-weight: 600;
+   line-height: 45px;
+   margin-top: 0; /* Menghapus margin atas */
+ }
+
+ .layouts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-container {
+  flex: 1; /* Menggunakan flex untuk membuat judul memenuhi sisa ruang */
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.buttons button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Memodifikasi teks tombol */
+.button-js {
+ background-color: white;
+ font-weight: bold;
+}
+
+.button-python,
+.button-css,
+.button-art-design,
+.button-business {
+ border: none;
+}
+
+
+.position-relative {
+ position: relative;
+}
+
+.small-icon {
+ position: absolute;
+ top: 15px;
+ left: 15px;
+ max-width: 30px; /* Sesuaikan ukuran ikon kecil sesuai kebutuhan */
+ z-index: 1; /* Menentukan ikon kecil tetap berada di atas gambar utama */
+}
+
+.row .brand {
+   color: #161819;
+   font-size: 10px;
+   font-weight: 600;
+   line-height: 20px;
+   width: 100%;
+   text-align: flex-start;
+}
+
+.container4 {
+ display: flex;
+ min-width: 100%;
+ height: 230px;
+ padding: 66.823px 100.234px;
+ align-items: center;
+ gap: 100%;
+ background: var(--neutral-silver, #f7dcc9); 
+}
+
+.container5 {
+ min-width: 100%;
+ height: auto;
+ padding: 66.823px 100.234px;
+ gap: 100%;
+ background: var(--neutral-silver, #ffff); 
+}
+
+.container5 .card {
+ width: 200px;
+ height: 110%;
+ box-shadow: #0d0e0e;
+ border-radius: 9px;
+}
+
+.circle {
+ width: 50px; 
+ height: 50px; 
+ border-radius: 50%;
+ background-color: #d6dcf7;
+ display: flex;
+ margin-top: 5px;
+ margin-left: 18px;
+}
+
+.card-grid {
+ margin-left: 50px;
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+ gap: 3px;
+}
+
+.cardWrapper {
+ width: 1073px;
+ height: 300px;
+ background-color: #f0f3ff; 
+ border-radius: 5x; 
+ padding: 20px; 
+ margin-left: 50px;
+}
+
+p {
+ margin-bottom: 20px;
+}
+
+.events-container {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 20px;
+ justify-content: flex-end;
+}
+
+.footer {
+ min-width: 100%;
+ height: auto;
+ background-color: #090e23;
+}
+
+.liBawah {
+ text-align: left;
+ margin-left: 140px;
+ margin-top: 30px;
+}
+.liBawah ul {
+ display: inline-block;
+ padding: 0;
+ margin: 0;
+}
+.liBawah li {
+ display: inline;
+ margin-left: 10px; /* Sesuaikan jarak antar elemen jika diperlukan */
+}
